@@ -1,0 +1,22 @@
+/* ก่อน body ให้เพิ่ม space 60px */
+
+body::before {
+    display: block;
+    content: '';
+    height: 60px;
+}
+
+#map {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+/* Size md */
+
+@media (min-width: 768px) {
+    .news-input {
+        /*  ถ้ามากกว่า 768px ให้ width เท่า 100%*/
+        width: 50%;
+    }
+}
